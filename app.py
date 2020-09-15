@@ -10,7 +10,10 @@ if age >= 18:
         print('Let\'s play!')
         choice = input('First choice... Left or Right? ').lower()
         if choice == 'left':
-            
+             swim =  input('Nice, you follow the path and reach a lake...Do you swim across or go around? ')
+
+             if swim == 'across':
+                 print('You managed to get across, but were bit by a fish and lost 5 health')
     else:
         print('Game over')    
 
